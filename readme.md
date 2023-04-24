@@ -1,7 +1,10 @@
 
 # command line intrface cheatsheet 
-download lastest powershall version :["https://github.com/PowerShell/PowerShell/releases/tag/v7.3.4"]
-thanks for @powercode
+![learn powershall ](https://iili.io/HWMjae.png)
+
+## download and install powershall
+
+[download powershall](https://github.com/PowerShell/PowerShell/releases/tag/v7.3.4)
 
 ```
 check your version powershall
@@ -38,7 +41,7 @@ PSVersion                      7.1.14409.1018
 
 
 
-## example codes
+### example codes
 
 ```
 Get-Content -Path Yourfile.log -Tail 30 -Wait 
