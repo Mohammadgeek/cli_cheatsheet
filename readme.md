@@ -1,10 +1,16 @@
 
-# command line intrface cheatsheet 
-![learn powershall ](https://iili.io/HWMjae.png)
+# Powershall commands every developer should use 
+The commands listed below are a good starting point for any developer, but to fully realize the benefits, you should master parameters and other methods as well,i hope enjoy it
 
-## download powershall
+some suggest for better use for powershall
 
-[powershall repository](https://github.com/PowerShell/PowerShell/releases/tag/v7.3.4)
+main online repository powershall : [powershall Gallery](https://www.powershellgallery.com/)
+
+
+
+## How to use powershall
+
+install powershall from git : [powershall repository](https://github.com/PowerShell/PowerShell/releases/tag/v7.3.4)
 
 ```
 check your version powershall
@@ -12,8 +18,12 @@ $PSVersionTable
 PSVersion                      7.1.14409.1018 
 
 ```
+## cheatsheet commands
 
-## Working to filesystem os
+![learn powershall ](https://iili.io/HWMjae.png)
+
+
+## filesystem cmdlet
 
 | command | Alies | descripton  | 
 | :---         |     :---:      |          ---: | 
@@ -22,11 +32,11 @@ PSVersion                      7.1.14409.1018
 | remove-item   | rmdir      | remove your directory |
 | New-Item  | mkdir,md       |  create new directory|
 | write_output  | echo       | displaying lines of text & create | 
-| Clear-Content | cls,clear  | The Clear-Content cmdlet deletes the contents of an item | 
+| Clear-Content | clear content | The Clear-Content cmdlet deletes  content files | 
 | Get-Content   | cat,gc     | displaying lines of text & create | 
 
 
-## working to Hardware,Os command
+## Hardware,Os cmdlet
 
 | command | Alies | descripton  | 
 | :---         |     :---:      |          ---: | 
