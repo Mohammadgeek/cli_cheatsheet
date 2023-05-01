@@ -2,9 +2,9 @@
 # command line intrface cheatsheet 
 ![learn powershall ](https://iili.io/HWMjae.png)
 
-## download and install powershall
+## download powershall
 
-[download powershall](https://github.com/PowerShell/PowerShell/releases/tag/v7.3.4)
+[powershall repository](https://github.com/PowerShell/PowerShell/releases/tag/v7.3.4)
 
 ```
 check your version powershall
@@ -13,43 +13,38 @@ PSVersion                      7.1.14409.1018
 
 ```
 
-## command for working file & folders
+## Working to filesystem os
 
 | command | Alies | descripton  | 
 | :---         |     :---:      |          ---: | 
-| move-item     | mv       | move your file |
-| Get-item      | gi       | copy your file |
-| remove-item   | rmdir    | remove your directory |
-| make-file     | mkdir    | copy your file |
-| write_output  | echo     | displaying lines of text & create | 
-| Clear-Content | cls,clear      | The Clear-Content cmdlet deletes the contents of an item | 
+| move-item     | mv         | move your file |
+| Get-item      | gi         | get items |
+| remove-item   | rmdir      | remove your directory |
+| New-Item  | mkdir,md       |  create new directory|
+| write_output  | echo       | displaying lines of text & create | 
+| Clear-Content | cls,clear  | The Clear-Content cmdlet deletes the contents of an item | 
 | Get-Content   | cat,gc     | displaying lines of text & create | 
 
 
-## Table cheatsheet for os command
+## working to Hardware,Os command
+
 | command | Alies | descripton  | 
 | :---         |     :---:      |          ---: | 
 | Format-Table    | ft       | move your file |
-| Get-Process     | gps       | copy your file |
-| Start-Process   | start,saps    | remove your directory |
-| Get-PSDrive     | gdr    | copy your file |
-|  Stop-Process   | kill     | displaying lines of text & create | 
-| Clear-Content   | cls,clear      | The Clear-Content cmdlet deletes the contents of an item | 
-| full shutdown   | shutdown/s     | displaying lines of text & create | 
-| Restart-Compute | shutdown/r      | The Clear-Content cmdlet deletes the contents of an item | 
-| Get-Service     | gsv   | displaying lines of text & create | 
+| Get-Process     | gps       | get all process your cpu |
+|Get-Package       |         | get all program  |
+|Install-Package    |        | install any program |
+|Uninstall-Package  |        |  Uninstall any program |
+| Start-Process   | start,saps    | open any format file |
+| Get-PSDrive     | gdr    | display all disk drive  |
+|  Stop-Process   | kill     | stop process cpu | 
+| Clear-Content   | cls,clear      | clear terminal command | 
+| full shutdown   | shutdown/s     | full sutdown pc | 
+| Restart-Compute | shutdown/r      | Restart pc | 
+| Get-Service     | gsv   | displaying all services | 
 
 
 
-### example codes
 
-```
-Get-Content -Path Yourfile.log -Tail 30 -Wait 
-cat some.doc 
 
-if you define Alias your restart action
-sal -Name res -Value shutdown-s
-Get-Alias -Name res
-
-```
 
