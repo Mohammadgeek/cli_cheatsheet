@@ -70,13 +70,14 @@ comptible for windows server
 
 ## network command
 
-| command          |  Description 
-| :---             | 
-| ping             | displaying all information compotents  | 
-| pingpath         | Powercfg is a very powerful command for managing and tracking computer| 
-| ipconfig         | will immediately scan the drives, without a need to restart the computer | 
-| tracert          | will immediately scan the drives, without a need to restart the computer | 
-| netsh            | Will Full Format disk drive | 
-| arp              | You can force stop a program using taskkill -im followed by the executable's name | 
-| nslookup         | full sutdown pc | 
-| Restart-Compute  | Restart pc | 
+| command          |  Description |
+| :---             |   :---:      |
+| ping             |  can reach some destination IP address or domain name | 
+| pingpath         | analyzes the route taken and computes packet loss on a per-hop basis | 
+| ipconfig         | most-used networking command & shows every network adapter on your system  | 
+| Getmac           | get mac address on your system  | 
+| tracert          | tracks the route of the packet as it hops from server to server | 
+| netsh            | tool for network statistics, diagnostics | 
+| arp              | displays the current ARP on your network  | 
+| nslookup         | For regular folks like you and me, its main use is finding out the IP address behind a certain domain name | 
+
