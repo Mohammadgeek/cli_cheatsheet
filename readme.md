@@ -25,7 +25,7 @@ PSVersion                      7.1.14409.1018
 
 ## filesystem cmdlet
 
-| command | Alies | descripton  | 
+| command | Alies | Description  | 
 | :---         |     :---:      |          ---: | 
 | move-item     | mv         | move your file |
 | Get-item      | gi         | get items |
@@ -34,11 +34,12 @@ PSVersion                      7.1.14409.1018
 | write_output  | echo       | displaying lines of text & create | 
 | Clear-Content | clear content | The Clear-Content cmdlet deletes  content files | 
 | Get-Content   | cat,gc     | displaying lines of text & create | 
+| cipher        |     | Displays or alters the encryption of directories and files on NTFS  |
 
 
-## Hardware,Os cmdlet
+## Os cmdlet
 
-| command | Alies | descripton  | 
+| command | Alies | Description  | 
 | :---         |     :---:      |          ---: | 
 | Format-Table    | ft       | move your file |
 | Get-Process     | gps       | get all process your cpu |
@@ -46,15 +47,25 @@ PSVersion                      7.1.14409.1018
 |Install-Package    |        | install any program |
 |Uninstall-Package  |        |  Uninstall any program |
 | Start-Process   | start,saps    | open any format file |
-| Get-PSDrive     | gdr    | display all disk drive  |
+| Get-PSDrive     | gdr      | display all disk drive  |
 |  Stop-Process   | kill     | stop process cpu | 
 | Clear-Content   | cls,clear      | clear terminal command | 
-| full shutdown   | shutdown/s     | full sutdown pc | 
-| Restart-Compute | shutdown/r      | Restart pc | 
 | Get-Service     | gsv   | displaying all services | 
 
 
+## hardware scan & anlayze
+comptible for windows server 
 
+| command          | Alies              | Description
+| :---             | :---:              |  :---:
+| systeminfo       |                    | displaying all information compotents  | 
+| powercfg         |                    | Powercfg is a very powerful command for managing and tracking how your computer uses energy. | 
+| chkdsk           |                    | will immediately scan the drives, without a need to restart the computer | 
+| schtasks         |                    | will immediately scan the drives, without a need to restart the computer | 
+| Format           |                    | Will Full Format disk drive | 
+| taskkill         |                    | You can force stop a program using taskkill -im followed by the executable's name | 
+| full shutdown    |  shutdown/s        | full sutdown pc | 
+| Restart-Compute  |  shutdown/r        | Restart pc | 
 
 
 
