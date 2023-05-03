@@ -68,4 +68,15 @@ comptible for windows server
 | Restart-Compute  |  shutdown/r        | Restart pc | 
 
 
+## network command
 
+| command          |  Description 
+| :---             | 
+| ping             | displaying all information compotents  | 
+| pingpath         | Powercfg is a very powerful command for managing and tracking computer| 
+| ipconfig         | will immediately scan the drives, without a need to restart the computer | 
+| tracert          | will immediately scan the drives, without a need to restart the computer | 
+| netsh            | Will Full Format disk drive | 
+| arp              | You can force stop a program using taskkill -im followed by the executable's name | 
+| nslookup         | full sutdown pc | 
+| Restart-Compute  | Restart pc | 
