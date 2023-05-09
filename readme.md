@@ -81,3 +81,18 @@ comptible for windows server
 | arp              | displays the current ARP on your network  | 
 | nslookup         | For regular folks like you and me, its main use is finding out the IP address behind a certain domain name | 
 
+
+## Permission command
+
+`CACLS files /e /p {USERNAME}:{PERMISSION}`
+
+| command 		    |  Description			         |
+| :---    		    |   :---:     			         |
+| R			          | read-only access 		       | 
+| W			          | write-only access 		     | 
+| C			          | change (write)  		       | 
+| F			          | full access (Full control) | 
+| N			          | no access 			           | 
+| M			          | modify access 		         | 
+| RX			        | read and execute access  	 | 
+| D			          | delete access 		         | 
