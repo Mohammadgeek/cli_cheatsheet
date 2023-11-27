@@ -1,19 +1,19 @@
 
 # Powershall commands every developer should use 
-The commands listed below are a good starting point for any developer, but to fully realize the benefits, you should master parameters and other methods as well,i hope enjoy it
+The commands listed below are a good starting point for any developer, but to fully realize the benefits, you should master parameters and other methods as well, I hope enjoy it
 
-some suggest for better use for powershall
+some suggest for better use for Powershell
 
-main online repository powershall : [powershall Gallery](https://www.powershellgallery.com/)
+main online repository power shall : [powershall Gallery](https://www.powershellgallery.com/)
 
 
 
-## How to use powershall
+## How to use PowerShell
 
-install powershall from git : [powershall repository](https://github.com/PowerShell/PowerShell/releases/tag/v7.3.4)
+install PowerShell from git : [powershall repository](https://github.com/PowerShell/PowerShell/releases/tag/v7.3.4)
 
 ```
-check your version powershall
+check your version Powershell
 $PSVersionTable
 PSVersion                      7.1.14409.1018 
 
@@ -27,11 +27,17 @@ PSVersion                      7.1.14409.1018
 
 | command | Alies | Description  | 
 | :---          |     :---:      |          ---: | 
+| Set-Location  |  cd,chdir,sl   |Sets the current working location to a specified location |
+| Get-Location  | pwd          | Gets information about the current working location                |
+| Rename-Item   | ren        | Renames an item in a PowerShell |
+| Get-ChildItem | ls         | Gets the items and child items in one or more specified locations |
+| Copy-Item     | cp         | Copies an item from one location to another | 
+| New-Item      | ni         | create item in directory | 
 | move-item     | mv         | move your file |
 | Get-item      | gi         | get items |
-| remove-item   | rmdir      | remove your directory |
+| remove-item   | rmdir,del     | deletes your directory or the specified items.|
 | New-Item      | mkdir,md   |  create new directory|
-| write_output  | echo       | displaying lines of text & create | 
+| write-output  | echo       | displaying lines of text & create | 
 | Clear-Content | clc        | The Clear-Content cmdlet deletes  content files | 
 | Get-Content   | cat,gc     | displaying lines of text & create | 
 | cipher        |            | Displays or alters the encryption of directories and files on NTFS  |
