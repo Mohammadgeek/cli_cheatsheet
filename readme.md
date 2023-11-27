@@ -26,32 +26,31 @@ PSVersion                      7.1.14409.1018
 ## filesystem cmdlet
 
 | command | Alies | Description  | 
-| :---         |     :---:      |          ---: | 
+| :---          |     :---:      |          ---: | 
 | move-item     | mv         | move your file |
 | Get-item      | gi         | get items |
 | remove-item   | rmdir      | remove your directory |
-| New-Item  | mkdir,md       |  create new directory|
+| New-Item      | mkdir,md   |  create new directory|
 | write_output  | echo       | displaying lines of text & create | 
-| Clear-Content | clear content | The Clear-Content cmdlet deletes  content files | 
+| Clear-Content | clc        | The Clear-Content cmdlet deletes  content files | 
 | Get-Content   | cat,gc     | displaying lines of text & create | 
-| cipher        |     | Displays or alters the encryption of directories and files on NTFS  |
+| cipher        |            | Displays or alters the encryption of directories and files on NTFS  |
 
 
 ## Os cmdlet
 
 | command | Alies | Description  | 
 | :---         |     :---:      |          ---: | 
-| Format-Table    | ft       | move your file |
-| Get-Process     | gps       | get all process your cpu |
+| Format-Table    | ft       | formatting of the output of your Windows PowerShell commands |
+| Get-Process     | gps      | get all process your cpu |
 |Get-Package       |         | get all program  |
 |Install-Package    |        | install any program |
 |Uninstall-Package  |        |  Uninstall any program |
 | Start-Process   | start,saps    | open any format file |
 | Get-PSDrive     | gdr      | display all disk drive  |
 |  Stop-Process   | kill     | stop process cpu | 
-| Clear-Content   | cls,clear      | clear terminal command | 
+| Clear-Host      | cls,clear      | clear terminal command | 
 | Get-Service     | gsv   | displaying all services | 
-
 
 ## hardware scan & anlayze
 comptible for windows server 
